@@ -1,101 +1,962 @@
 [
-    {
-      "id": 1,
-      "name": "Шаурма у Ашота",
-      "address": "ул. Дерибасовская, 10",
-      "averageRating": 5,
-      "review": "Очень вкусная шаурма, но иногда долго ждать.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 2,
-      "name": "Шаурма на углу",
-      "address": "ул. Пушкинская, 25",
-      "averageRating": 4,
-      "review": "Неплохая шаурма, но порции могли бы быть больше.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 3,
-      "name": "Шаурма от Махмуда",
-      "address": "ул. Екатерининская, 15",
-      "averageRating": 5,
-      "review": "Лучшая шаурма в городе! Всегда свежие ингредиенты.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 4,
-      "name": "Шаурма 24/7",
-      "address": "ул. Греческая, 5",
-      "averageRating": 4,
-      "review": "Удобно, что работает круглосуточно, но вкус средний.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 5,
-      "name": "Шаурма у моря",
-      "address": "ул. Приморская, 1",
-      "averageRating": 5,
-      "review": "Прекрасное место с видом на море, шаурма вкусная.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 6,
-      "name": "Шаурма у Армена",
-      "address": "ул. Ланжероновская, 12",
-      "averageRating": 5,
-      "review": "Очень вкусно, но цены немного завышены.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 7,
-      "name": "Шаурма на рынке",
-      "address": "ул. Новощепной ряд, 3",
-      "averageRating": 4,
-      "review": "Шаурма вкусная, но место не самое чистое.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Посёлок Котовского"
-    },
-    {
-      "id": 8,
-      "name": "Шаурма от Али",
-      "address": "ул. Ришельевская, 20",
-      "averageRating": 5,
-      "review": "Просто потрясающе! Всегда возвращаюсь сюда.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 9,
-      "name": "Шаурма Экспресс",
-      "address": "ул. Садовая, 7",
-      "averageRating": 4,
-      "review": "Быстрое обслуживание, но вкус оставляет желать лучшего.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 10,
-      "name": "Шаурма у вокзала",
-      "address": "ул. Привокзальная, 2",
-      "averageRating": 4,
-      "review": "Удобное расположение, вкусно и недорого.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Центр"
-    },
-    {
-      "id": 11,
-      "name": "Шавуран",
-      "address": "ул. Королева, 29",
-      "averageRating": 5,
-      "review": "Хорошая шаурма, но иногда не хватает соуса.",
-      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
-      "district": "Таирова"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Anti-Mage",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+    "abilities": [
+      {
+        "name": "Mana Break",
+        "description": "Сжигает ману противника при каждой атаке и наносит урон, равный проценту от сожженной маны."
+      },
+      {
+        "name": "Blink",
+        "description": "Телепортация на короткую дистанцию, позволяющая Анти-Магу входить в бой и выходить из него."
+      },
+      {
+        "name": "Counterspell",
+        "description": "Создает анти-магический щит вокруг Анти-Мага, который отражает заклинания."
+      },
+      {
+        "name": "Mana Void",
+        "description": "Создает опасный взрыв, который наносит урон врагам в зависимости от того, сколько маны им не хватает."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Axe",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
+    "abilities": [
+      {
+        "name": "Berserker's Call",
+        "description": "Акс насмехается над ближайшими вражескими юнитами, заставляя их атаковать его, одновременно получая бонусную броню."
+      },
+      {
+        "name": "Battle Hunger",
+        "description": "Поражает вражеского юнита голодом, замедляя его движение и нанося урон с течением времени."
+      },
+      {
+        "name": "Counter Helix",
+        "description": "Когда на Акса нападают, он выполняет спиральный контрудар, нанося урон всем ближайшим врагам."
+      },
+      {
+        "name": "Culling Blade",
+        "description": "Акс обнаруживает слабость и мгновенно убивает вражеского юнита с малым запасом здоровья."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Crystal Maiden",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png",
+    "abilities": [
+      {
+        "name": "Crystal Nova",
+        "description": "Всплеск повреждающего мороза замедляет движение и скорость атаки противника на территории."
+      },
+      {
+        "name": "Frostbite",
+        "description": "Заключает вражеского юнита в лёд, предотвращая движение и атаки, при этом нанося урон с течением времени."
+      },
+      {
+        "name": "Arcane Aura",
+        "description": "Обеспечивает дополнительное восстановление маны всем союзникам на карте."
+      },
+      {
+        "name": "Freezing Field",
+        "description": "Создает вокруг Кристальной девы разрушительную метель, которая замедляет врагов."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Juggernaut",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
+    "abilities": [
+      {
+        "name": "Raging Blade",
+        "description": "Джаггернаут вращает свой клинок, становясь невосприимчивым к магии и нанося урон ближайшим врагам."
+      },
+      {
+        "name": "Healing Totem",
+        "description": "Вызывает исцеляющий тотем, который восстанавливает здоровье ближайшим союзникам."
+      },
+      {
+        "name": "Dance of Blades",
+        "description": "Дает Джаггернауту шанс нанести критический урон при атаках."
+      },
+      {
+        "name": "All-Out Attack",
+        "description": "Джаггернаут прыгает к целевому противнику и рубит его и других ближайших врагов с критическим уроном."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pudge",
+    "role": "Дизейблер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
+    "abilities": [
+      {
+        "name": "Meat Hook",
+        "description": "Падж запускает крюк, который, если попадает во вражеского юнита, притягивает его к Паджу."
+      },
+      {
+        "name": "Rot",
+        "description": "Токсичное облако, которое наносит урон врагам и самому Паджу."
+      },
+      {
+        "name": "Flesh Heap",
+        "description": "Дает Паджу повышенную силу и сопротивление магии, увеличивающееся с убийствами героев."
+      },
+      {
+        "name": "Dismember",
+        "description": "Падж пережевывает вражеского героя, выводя его из строя и нанося урон с течением времени."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Invoker",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png",
+    "abilities": [
+      {
+        "name": "Quas",
+        "description": "Обеспечивает регенерацию и силу заклинаниям Инвокера."
+      },
+      {
+        "name": "Wex",
+        "description": "Обеспечивает скорость атаки и скорость передвижения заклинаниям Инвокера."
+      },
+      {
+        "name": "Exort",
+        "description": "Обеспечивает урон и интеллект заклинаниям Инвокера."
+      },
+      {
+        "name": "Invoke",
+        "description": "Комбинирует Quas, Wex и Exort для создания различных заклинаний."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Phantom Assassin",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png",
+    "abilities": [
+      {
+        "name": "Smoke Screen",
+        "description": "Бросает кинжал, который замедляет противника и наносит урон."
+      },
+      {
+        "name": "Phantom Strike",
+        "description": "Телепортируется к вражескому или дружественному юниту, увеличивая скорость атаки."
+      },
+      {
+        "name": "Blur",
+        "description": "Дает шанс уклониться от физических атак и делает ПУ труднее обнаружить на мини-карте."
+      },
+      {
+        "name": "Soul Strike",
+        "description": "Дает шанс нанести критический урон при атаках."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rubick",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png",
+    "abilities": [
+      {
+        "name": "Telekinesis",
+        "description": "Поднимает вражеского юнита в воздух, а затем бросает его на землю, оглушая его."
+      },
+      {
+        "name": "Decay",
+        "description": "Наносит урон врагам и уменьшает их урон от атак."
+      },
+      {
+        "name": "Dark Pact",
+        "description": "Увеличивает урон от заклинаний и продолжительность дебаффов."
+      },
+      {
+        "name": "Steal",
+        "description": "Крадет последнее использованное заклинание вражеского героя."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Earthshaker",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png",
+    "abilities": [
+      {
+        "name": "Blast",
+        "description": "Создает непроходимый хребет из камня, оглушая и нанося урон врагам по линии."
+      },
+      {
+        "name": "Enchant Totem",
+        "description": "Усиливает следующую атаку Шейкера, значительно увеличивая ее урон."
+      },
+      {
+        "name": "Aftershock",
+        "description": "Заставляет землю дрожать, когда Шейкер применяет свои заклинания, нанося урон и оглушая ближайших юнитов."
+      },
+      {
+        "name": "Echo Slam",
+        "description": "Сотрясает землю, нанося урон всем ближайшим вражеским юнитам в зависимости от того, сколько из них попалось."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sniper",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png",
+    "abilities": [
+      {
+        "name": "Shuriken Toss",
+        "description": "Наносит урон и замедляет врагов в целевой области в течение некоторого времени."
+      },
+      {
+        "name": "Headshot",
+        "description": "Дает шанс нанести дополнительный урон и мини-оглушение врагам при атаке."
+      },
+      {
+        "name": "Tracking",
+        "description": "Увеличивает дальность атаки Снайпера."
+      },
+      {
+        "name": "Assassinate",
+        "description": "Снайпер прицеливается во вражеского юнита, а затем стреляет разрушительным выстрелом после задержки."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Dazzle",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png",
+    "abilities": [
+      {
+        "name": "Poison Touch",
+        "description": "Наносит урон и замедляет врага, исцеляя союзников."
+      },
+      {
+        "name": "Necrolyte's Curse",
+        "description": "Предотвращает смерть союзного героя на короткое время."
+      },
+      {
+        "name": "Shadow Wave",
+        "description": "Исцеляет союзников и наносит урон врагам в области."
+      },
+      {
+        "name": "Sleight of Hand",
+        "description": "Усиливает все способности и снижает время перезарядки предметов."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Faceless Void",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/faceless_void.png",
+    "abilities": [
+      {
+        "name": "Time Walk",
+        "description": "Перемещается в указанную точку, нанося урон всем врагам на пути."
+      },
+      {
+        "name": "Time Dilation",
+        "description": "Пассивно дает шанс остановить врага во времени, предотвращая его действия."
+      },
+      {
+        "name": "Regeneration",
+        "description": "Пассивно восстанавливает здоровье, получая урон от некоторых атак."
+      },
+      {
+        "name": "Chronosphere",
+        "description": "Создает сферу, в которой все юниты, кроме Расточителя, останавливаются во времени."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Dragon Knight",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png",
+    "abilities": [
+      {
+        "name": "Breath of Fire",
+        "description": "Выдыхает поток огня, нанося урон врагам перед собой."
+      },
+      {
+        "name": "Dragon Tail",
+        "description": "Пассивно дает шанс оглушить врага при атаке."
+      },
+      {
+        "name": "Dragon Blood",
+        "description": "Пассивно повышает регенерацию здоровья и броню."
+      },
+      {
+        "name": "Elder Dragon's Call",
+        "description": "Превращает Драгон Найта в могущественного дракона, дающего ему новые способности."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Life Stealer",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/life_stealer.png",
+    "abilities": [
+      {
+        "name": "Wrath",
+        "description": "Увеличивает скорость атаки и дает вампиризм на короткое время."
+      },
+      {
+        "name": "Devotion",
+        "description": "Пассивно восстанавливает здоровье с каждой атакой в зависимости от здоровья цели."
+      },
+      {
+        "name": "Open Wounds",
+        "description": "Замедляет цель и дает вампиризм от нее."
+      },
+      {
+        "name": "Infection",
+        "description": "Позволяет скрыться внутри другого юнита, восстанавливая здоровье."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Puck",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
+    "abilities": [
+      {
+        "name": "Illusionary Orb",
+        "description": "Запускает магическую сферу, которая наносит урон врагам."
+      },
+      {
+        "name": "Teleportation",
+        "description": "Телепортируется к Иллюзорной сфере, если она была выпущена."
+      },
+      {
+        "name": "Phase Shift",
+        "description": "Временно исчезает из этого плана существования, становясь невосприимчивым к атакам."
+      },
+      {
+        "name": "Dream Coil",
+        "description": "Создает кольцо, которое связывает всех врагов, пытающихся пройти через него, нанося им урон и оглушая."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Luna",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
+    "abilities": [
+      {
+        "name": "Lunar Blessing",
+        "description": "Вызывает луч лунного света, который поражает врагов в области."
+      },
+      {
+        "name": "Lunar Blessing",
+        "description": "Увеличивает ночное зрение и даёт дополнительный урон в ауре."
+      },
+      {
+        "name": "Lunar Jump",
+        "description": "Атаки Луны отскакивают на близлежащих врагов."
+      },
+      {
+        "name": "Eclipse",
+        "description": "Вызывает луч лунного света, который случайным образом поражает видимых врагов."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bristleback",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png",
+    "abilities": [
+      {
+        "name": "Gel",
+        "description": "Снижает броню и замедляет цель."
+      },
+      {
+        "name": "Spiked Shell",
+        "description": "Выпускает иглы из спины при получении урона, поражая ближайших врагов."
+      },
+      {
+        "name": "Quills",
+        "description": "Уменьшает получаемый урон и выпускает иглы, когда получает урон в спину или сбоку."
+      },
+      {
+        "name": "Blowback",
+        "description": "Распыляет слизь во всех направлениях, нанося урон и замедляя врагов."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Lion",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
+    "abilities": [
+      {
+        "name": "Earth Spike",
+        "description": "Поднимает шипы из земли, нанося урон и временно обездвиживая врага."
+      },
+      {
+        "name": "Gekser",
+        "description": "Превращает врага в безвредное существо, которое не может атаковать или применять способности."
+      },
+      {
+        "name": "Mana Drain",
+        "description": "Высасывает ману из цели, передавая ее Лиону."
+      },
+      {
+        "name": "Death Pounce",
+        "description": "Высвобождает всплеск энергии, нанося огромный урон одной цели. Урон увеличивается с каждым убийством."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Sven",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
+    "abilities": [
+      {
+        "name": "Storm Hammer",
+        "description": "Высвобождает ударную волну, оглушая и нанося урон врагам перед ним."
+      },
+      {
+        "name": "Great Cleave",
+        "description": "Дает бонус брони и скорости передвижения Свену и ближайшим союзникам."
+      },
+      {
+        "name": "God's Strength",
+        "description": "Дает бонус к силе, увеличивая здоровье и регенерацию."
+      },
+      {
+        "name": "God's Wrath",
+        "description": "Временно усиливает Свена, давая ему дополнительный урон на основе его силы."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Tinker",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png",
+    "abilities": [
+      {
+        "name": "Laser",
+        "description": "Выпускает лазерный луч, нанося урон цели и временно ослепляя ее."
+      },
+      {
+        "name": "Heat-Seeking Missile",
+        "description": "Запускает ракеты, которые автоматически поражают ближайших врагов."
+      },
+      {
+        "name": "Defense Matrix",
+        "description": "Вызывает группу роботов, которые наносят периодический урон врагам в области."
+      },
+      {
+        "name": "Rearm",
+        "description": "Мгновенно сбрасывает перезарядку всех способностей и предметов Тинкера."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Io",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png",
+    "abilities": [
+      {
+        "name": "Tether",
+        "description": "Соединяется с союзным героем, предоставляя обоим бонус к скорости передвижения и атаке."
+      },
+      {
+        "name": "Spirits",
+        "description": "Призывает пять духов, которые вращаются вокруг Виспера и наносят урон врагам при столкновении."
+      },
+      {
+        "name": "Overcharge",
+        "description": "Увеличивает регенерацию здоровья и маны Виспера, но ценой постепенной потери здоровья."
+      },
+      {
+        "name": "Relocate",
+        "description": "Телепортирует Виспера и его привязанного союзника в любую точку карты."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Necrophos",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png",
+    "abilities": [
+      {
+        "name": "Death Pulse",
+        "description": "Высвобождает волну энергии, нанося урон врагам и исцеляя союзников вокруг Некролита."
+      },
+      {
+        "name": "Ghost Shroud",
+        "description": "Замедляет врагов вокруг и наносит урон со временем, тем самым регенерируя здоровье Некролита."
+      },
+      {
+        "name": "Heartstopper Aura",
+        "description": "Получает ману и здоровье за каждого погибшего юнита поблизости."
+      },
+      {
+        "name": "Reaper's Scythe",
+        "description": "Наносит сильный урон, который усиливается в зависимости от того, сколько здоровья не хватает жертве. Убийство добавляет к длительности возрождения."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Warlock",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png",
+    "abilities": [
+      {
+        "name": "Fatal Bonds",
+        "description": "Наносит периодический урон и в конце оглушает цель."
+      },
+      {
+        "name": "Shadow Word",
+        "description": "Создает связь между целями, заставляя их делить получаемый урон."
+      },
+      {
+        "name": "Upheaval",
+        "description": "Исцеляет союзников и повреждает врагов в области действия."
+      },
+      {
+        "name": "Chaotic Offering",
+        "description": "Призывает огненного голема, который имеет свои способности и атаки, оглушая врагов при появлении."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Riki",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png",
+    "abilities": [
+      {
+        "name": "Smoke Screen",
+        "description": "Создает область дыма, где Рики получает невидимость и может атаковать со спины."
+      },
+      {
+        "name": "Blink Strike",
+        "description": "Рики становится невидимым, если не атакует и не использует способности."
+      },
+      {
+        "name": "Backstab",
+        "description": "Наносит дополнительный урон, когда Рики атакует врага сзади."
+      },
+      {
+        "name": "Tricks of the Trade",
+        "description": "Рики прыгает в указанную область, нанося удары в спину всем врагам на пути."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Enigma",
+    "role": "Дизейблер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png",
+    "abilities": [
+      {
+        "name": "Malefice",
+        "description": "Превращает союзного крипа в трех эйдолонов, которые при атаке создают новых эйдолонов."
+      },
+      {
+        "name": "Demonic Conversion",
+        "description": "Наносит чистый урон и замедляет цель."
+      },
+      {
+        "name": "Midnight Pulse",
+        "description": "Высвобождает пульсации тёмной энергии, нанося урон всем врагам поблизости."
+      },
+      {
+        "name": "Black Hole",
+        "description": "Создает воронку тёмной энергии, втягивающую и обездвиживающую всех находящихся поблизости вражеских юнитов."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Tidehunter",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png",
+    "abilities": [
+      {
+        "name": "Gush",
+        "description": "Снижает получаемый урон и наносит урон тем, кто атакует Тайд Хантера."
+      },
+      {
+        "name": "Kraken Shell",
+        "description": "Замедляет врагов и снижает их урон от атак."
+      },
+      {
+        "name": "Anchor Smash",
+        "description": "Наносит урон и снижает броню врагов перед собой."
+      },
+      {
+        "name": "Ravage",
+        "description": "Мощная ударная волна, оглушающая всех врагов поблизости."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Nature's Prophet",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/natures_prophet.png",
+    "abilities": [
+      {
+        "name": "Sprout",
+        "description": "Телепортирует Вражеского природы в любую видимую точку на карте."
+      },
+      {
+        "name": "Teleportation",
+        "description": "Призывает управляемых духов природы, которые сражаются за Вражеского."
+      },
+      {
+        "name": "Nature's Call",
+        "description": "Создает кольцо деревьев вокруг целевой точки, временно блокируя путь."
+      },
+      {
+        "name": "Wrath of Nature",
+        "description": "Вызывает духов энергии, которые отскакивают между врагами, нанося им урон."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Naga Siren",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png",
+    "abilities": [
+      {
+        "name": "Mirror Image",
+        "description": "Создает иллюзии Наги Сирены, которые атакуют близлежащих врагов."
+      },
+      {
+        "name": "Ensnare",
+        "description": "Запутывает врага в сети, обездвиживая его и нанося ему урон."
+      },
+      {
+        "name": "Rip Tide",
+        "description": "Пассивно дает шанс атаковать несколько целей одновременно."
+      },
+      {
+        "name": "Song of the Siren",
+        "description": "Погружает всех окружающих врагов в сон, временно выводя их из боя."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Keeper of the Light",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png",
+    "abilities": [
+      {
+        "name": "Illuminate",
+        "description": "Вызывает луч света, который наносит урон врагам на своем пути."
+      },
+      {
+        "name": "Mana Leak",
+        "description": "Восстанавливает ману союзнику и снижает время перезарядки его способностей."
+      },
+      {
+        "name": "Blinding Light",
+        "description": "Выпускает вспышку света, которая замедляет и ослепляет врагов."
+      },
+      {
+        "name": "Spirit Form",
+        "description": "Трансформирует в духовную форму, предоставляя новые способности и бонусы."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Ogre Magi",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ogre_magi.png",
+    "abilities": [
+      {
+        "name": "Fireblast",
+        "description": "Наносит урон цели и оглушает ее на короткое время."
+      },
+      {
+        "name": "Ignite",
+        "description": "Поджигает врага, нанося ему урон с течением времени."
+      },
+      {
+        "name": "Bloodlust",
+        "description": "Увеличивает скорость атаки и передвижения союзного героя."
+      },
+      {
+        "name": "Multicast",
+        "description": "Дает шанс применить заклинание несколько раз за одно произнесение."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Ember Spirit",
+    "role": "Инициатор",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ember_spirit.png",
+    "abilities": [
+      {
+        "name": "Searing Chains",
+        "description": "Останавливает врагов и наносит урон с течением времени."
+      },
+      {
+        "name": "Sleight of Fist",
+        "description": "Рывок к цели с нанесением дополнительного урона от огня."
+      },
+      {
+        "name": "Flame Guard",
+        "description": "Защищает от физических атак и наносит урон атакующим."
+      },
+      {
+        "name": "Fire Remnant",
+        "description": "Создает огненных двойников, между которыми Ксин может мгновенно перемещаться."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Skywrath Mage",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skywrath_mage.png",
+    "abilities": [
+      {
+        "name": "Arcane Bolt",
+        "description": "Запускает магические стрелы, которые наносят урон цели."
+      },
+      {
+        "name": "Concussive Shot",
+        "description": "Замедляет цель и усиливает урон от магии, который она получает."
+      },
+      {
+        "name": "Ancient Seal",
+        "description": "Пассивно усиливает интеллект и дальность произнесения заклинаний."
+      },
+      {
+        "name": "Mystic Flare",
+        "description": "Выпускает мощный поток мистической энергии, который наносит большой урон в области."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Storm Spirit",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png",
+    "abilities": [
+      {
+        "name": "Static Remnant",
+        "description": "Оставляет заряженный остаток на месте, который взрывается с задержкой, нанося урон и замедляя врагов."
+      },
+      {
+        "name": "Electric Vortex",
+        "description": "Создает вихрь, который затягивает и наносит урон врагам в области."
+      },
+      {
+        "name": "Overload",
+        "description": "Атаки Шторма наносят дополнительный магический урон."
+      },
+      {
+        "name": "Ball Lightning",
+        "description": "Превращается в шар молнии, позволяя быстро перемещаться по карте, расходуя ману в зависимости от дистанции."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Tiny",
+    "role": "Дизейблер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png",
+    "abilities": [
+      {
+        "name": "Avalanche",
+        "description": "Бросает небольшой камень, который при попадании вызывает обвал, оглушающий и наносящий урон."
+      },
+      {
+        "name": "Toss",
+        "description": "Подбрасывает цель в воздух, а затем отбрасывает ее назад, нанося урон и оглушая."
+      },
+      {
+        "name": "Grow",
+        "description": "Минерал становится больше и сильнее с каждым уровнем, увеличивая урон, но снижая скорость атаки."
+      },
+      {
+        "name": "Tree Grab",
+        "description": "Позволяет вырывать дерево и использовать его как оружие, увеличивая радиус атаки и нанося урон по области."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Lycan",
+    "role": "Дизейблер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png",
+    "abilities": [
+      {
+        "name": "Summon Wolves",
+        "description": "Увеличивает скорость атаки и урон Волчьего и его призванных юнитов."
+      },
+      {
+        "name": "Howl",
+        "description": "Призывает два волка, которые подчиняются командам Волчьего."
+      },
+      {
+        "name": "Feral Impulse",
+        "description": "Пассивно дает дополнительную регенерацию здоровья и бонус урона ночью."
+      },
+      {
+        "name": "Shapeshift",
+        "description": "Волчьи превращается в волка, получая бонус к скорости передвижения и другие способности."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Shadow Shaman",
+    "role": "Поддержка",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png",
+    "abilities": [
+      {
+        "name": "Ether Shock",
+        "description": "Обездвиживает цель и наносит периодический урон."
+      },
+      {
+        "name": "Hex",
+        "description": "Превращает врага в безвредное существо, обездвиживая его и лишая способности атаковать."
+      },
+      {
+        "name": "Shackles",
+        "description": "Наносит урон и обезоруживает цель."
+      },
+      {
+        "name": "Mass Serpent Ward",
+        "description": "Вызывает множество змей, которые блокируют путь и атакуют близлежащих врагов."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Clinkz",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png",
+    "abilities": [
+      {
+        "name": "Strafe",
+        "description": "Усиливает следующий выстрел, добавляя к нему урон от огня."
+      },
+      {
+        "name": "Searing Arrows",
+        "description": "Выпускает множество стрел, которые наносят урон врагам в области."
+      },
+      {
+        "name": "Skeleton Walk",
+        "description": "Клинкз становится невидимым и получает бонус к скорости передвижения."
+      },
+      {
+        "name": "Death Pact",
+        "description": "Поглощает нейтрального крипа, получая бонус к здоровью и урону."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Techies",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+    "abilities": [
+      {
+        "name": "Sticky Bomb",
+        "description": "Бросает бомбу, которая прилипает к первому врагу и через время взрывается."
+      },
+      {
+        "name": "Proximity Mines",
+        "description": "Устанавливает невидимую мину, которая взрывается, когда враг проходит рядом."
+      },
+      {
+        "name": "Blast Off",
+        "description": "Техиес запускают себя в воздух, чтобы приземлиться и взорваться, нанося урон и заставляя молчать врагов."
+      },
+      {
+        "name": "Remote Mines",
+        "description": "Размещает мощную мину, которую можно взорвать дистанционно, нанося огромный урон."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Slark",
+    "role": "Керри",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png",
+    "abilities": [
+      {
+        "name": "Dark Pact",
+        "description": "Сларк прыгает вперед, повреждая и связывая всех врагов на пути."
+      },
+      {
+        "name": "Pounce",
+        "description": "Пассивно крадет атрибуты у врагов при каждой атаке."
+      },
+      {
+        "name": "Essence Shift",
+        "description": "Сларк очищается от большинства дебаффов и получает бонус к скорости передвижения."
+      },
+      {
+        "name": "Shadow Dance",
+        "description": "Сларк становится невидимым, если его не видят вражеские герои, и быстро восстанавливает здоровье."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Silencer",
+    "role": "Нюкер",
+    "portrait": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
+    "abilities": [
+      {
+        "name": "Arcane Curse",
+        "description": "Накладывает на цель проклятие, которое наносит урон при использовании способностей."
+      },
+      {
+        "name": "Last Word",
+        "description": "Наносит урон и заставляет врагов молчать, если они используют способности."
+      },
+      {
+        "name": "Glaives of Wisdom",
+        "description": "Пассивно крадет интеллект у вражеских героев при их смерти поблизости."
+      },
+      {
+        "name": "Global Silence",
+        "description": "Заставляет всех вражеских героев на карте молчать, предотвращая использование способностей."
+      }
+    ]
+  }
+]

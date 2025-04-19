@@ -1,54 +1,93 @@
-# React + TypeScript + Vite
+# Dota 2 Вики-портал
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-приложение, предоставляющее информацию о героях, предметах и дискуссионный форум игры Dota 2.
 
-Currently, two official plugins are available:
+## Используемые технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** - JavaScript-библиотека для создания пользовательских интерфейсов
+- **TypeScript** - Типизированный JavaScript для повышения надежности кода
+- **Vite** - Быстрый инструмент сборки для современных веб-приложений
+- **React Router v7** - Библиотека для маршрутизации в React-приложениях
+- **TailwindCSS 4** - Утилитарный CSS-фреймворк
+- **Axios** - HTTP-клиент для выполнения запросов к API
 
-## Expanding the ESLint configuration
+## Структура проекта
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+/
+├── public/                  # Статические файлы
+├── src/                     # Исходный код
+│   ├── component/           # Компоненты React
+│   │   ├── pages/           # Компоненты страниц
+│   │   │   ├── ForumPage.tsx    # Страница форума с обсуждениями
+│   │   │   ├── HeroDetails.tsx  # Детальная информация о героях
+│   │   │   ├── HeroList.tsx     # Страница со списком всех героев
+│   │   │   └── ItemsPage.tsx    # Каталог игровых предметов
+│   │   └── ui/              # Многоразовые UI-компоненты
+│   │       └── AddHeroForm.tsx  # Форма добавления нового героя
+│   ├── const/               # Константы приложения
+│   │   └── API_MOCKS.ts     # URL-адреса API для получения данных
+│   ├── hooks/               # Пользовательские хуки React
+│   │   ├── index.ts         # Экспорт всех хуков
+│   │   ├── useFetch.ts      # Хук для запросов к API
+│   │   ├── useFilter.ts     # Хук для фильтрации данных
+│   │   └── useModal.ts      # Хук для управления модальными окнами
+│   ├── types/               # TypeScript интерфейсы
+│   │   ├── form.interface.ts    # Интерфейсы для форм
+│   │   ├── modal.interface.ts   # Интерфейсы для модальных окон
+│   │   ├── news.interface.ts    # Интерфейсы для героев, способностей и обзоров
+│   │   └── products.interface.ts # Интерфейсы для игровых предметов
+│   ├── App.css              # Стили для основного компонента
+│   ├── App.tsx              # Основной компонент с маршрутизацией
+│   ├── index.css            # Глобальные стили
+│   ├── main.tsx             # Точка входа в приложение
+│   └── vite-env.d.ts        # Типы для Vite
+├── .gitignore               # Файлы, исключенные из системы контроля версий
+├── eslint.config.js         # Конфигурация ESLint
+├── index.html               # Главный HTML-файл
+├── package-lock.json        # Фиксация версий зависимостей
+├── package.json             # Зависимости и скрипты проекта
+├── tsconfig.app.json        # Конфигурация TypeScript для приложения
+├── tsconfig.json            # Базовая конфигурация TypeScript
+├── tsconfig.node.json       # Конфигурация TypeScript для Node.js
+└── vite.config.ts           # Конфигурация Vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Функциональность
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Раздел "Герои"
+- Просмотр списка героев Dota 2
+- Фильтрация героев по ролям (Керри, Поддержка, Нюкер, Дизейблер, Инициатор)
+- Добавление новых героев через форму
+- Детальная информация о каждом герое и его способностях
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### Раздел "Предметы"
+- Каталог предметов игры Dota 2
+- Информация о стоимости, характеристиках и эффектах предметов
+- Возможность фильтрации предметов по категориям
+
+### Раздел "Форум"
+- Обсуждение игровых тем
+- Публикация новых постов
+- Фильтрация постов по категориям
+- Просмотр контента от других пользователей
+
+## Запуск проекта
+
+```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
+
+# Предпросмотр сборки
+npm run preview
 ```
+
+## Требования
+- Node.js 18+
+- npm 9+

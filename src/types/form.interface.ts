@@ -1,9 +1,19 @@
 // Файл: src/types/form.interface.ts
-export interface ShawarmaForm {
+export interface HeroForm {
     name: string;
-    address: string;
-    averageRating: string;
-    review: string;
-    photo: string;
-    district: string;
+    role: string;
+    portrait?: string;
+    abilities: {
+        name: string;
+        description: string;
+    }[];
+}
+
+export interface ItemForm {
+    name: string;
+    icon?: string;
+    price: string;
+    category: string;
+    description: string;
+    attributes: string[];
 }
