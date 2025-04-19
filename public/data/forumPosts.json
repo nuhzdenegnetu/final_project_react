@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "title": "Обновление 7.35",
+    "content": "Вышло новое обновление для Dota 2! Множество изменений баланса и новые возможности.",
+    "author": "IceFrog",
+    "date": "2023-11-15",
+    "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+    "category": "Обновления"
+  },
+  {
+    "id": "2",
+    "title": "Как играть за Anti-Mage",
+    "content": "Подробное руководство по игре за Anti-Mage: предметы, способности и стратегия игры.",
+    "author": "ProPlayer",
+    "date": "2023-11-10",
+    "imageUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+    "category": "Гайды"
+  },
+  {
+    "id": "3",
+    "title": "Результаты The International 2023",
+    "content": "Обзор результатов главного турнира года по Dota 2.",
+    "author": "DotaAnalyst",
+    "date": "2023-10-30",
+    "category": "Турниры"
+  }
+] 

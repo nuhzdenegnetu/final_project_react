@@ -1,0 +1,534 @@
+[
+  {
+    "id": "1",
+    "name": "Тангo",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/tango_lg.png",
+    "price": 90,
+    "category": "Расходуемые",
+    "description": "Съедает дерево, восстанавливая здоровье со временем."
+  },
+  {
+    "id": "2",
+    "name": "Бутылочка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/flask_lg.png",
+    "price": 110,
+    "category": "Расходуемые",
+    "description": "Восстанавливает здоровье постепенно."
+  },
+  {
+    "id": "3",
+    "name": "Дымка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/clarity_lg.png",
+    "price": 50,
+    "category": "Расходуемые",
+    "description": "Восстанавливает ману постепенно."
+  },
+  {
+    "id": "4",
+    "name": "Пыльца",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/enchanted_mango_lg.png",
+    "price": 65,
+    "category": "Расходуемые",
+    "description": "Съедается, чтобы мгновенно восстановить ману.",
+    "attributes": ["+0.6 к восстановлению здоровья"]
+  },
+  {
+    "id": "5",
+    "name": "Наблюдатель",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ward_observer_lg.png",
+    "price": 0,
+    "category": "Расходуемые",
+    "description": "Дает обзор в области на карте."
+  },
+  {
+    "id": "6",
+    "name": "Страж",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ward_sentry_lg.png",
+    "price": 75,
+    "category": "Расходуемые",
+    "description": "Обнаруживает невидимых врагов и вражеские варды."
+  },
+  {
+    "id": "7",
+    "name": "Дымовая шашка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/smoke_of_deceit_lg.png",
+    "price": 50,
+    "category": "Расходуемые",
+    "description": "Скрывает вас и союзников от обзора врага и вардов."
+  },
+  {
+    "id": "8",
+    "name": "Пыль обнаружения",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/dust_lg.png",
+    "price": 80,
+    "category": "Расходуемые",
+    "description": "Выявляет невидимых юнитов поблизости."
+  },
+  {
+    "id": "9",
+    "name": "Бутылка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/bottle_lg.png",
+    "price": 675,
+    "category": "Расходуемые",
+    "description": "Хранит руны и восстанавливает здоровье и ману."
+  },
+  {
+    "id": "10",
+    "name": "Железная ветвь",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/branches_lg.png",
+    "price": 50,
+    "category": "Атрибуты",
+    "description": "Универсальный предмет для начала игры.",
+    "attributes": ["+1 ко всем атрибутам"]
+  },
+  {
+    "id": "11",
+    "name": "Плащ ловкости",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/slippers_lg.png",
+    "price": 140,
+    "category": "Атрибуты",
+    "description": "Простой предмет для героев ловкости.",
+    "attributes": ["+3 к ловкости"]
+  },
+  {
+    "id": "12",
+    "name": "Мантия силы",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/mantle_lg.png",
+    "price": 140,
+    "category": "Атрибуты",
+    "description": "Простой предмет для героев интеллекта.",
+    "attributes": ["+3 к интеллекту"]
+  },
+  {
+    "id": "13",
+    "name": "Пояс силы",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/gauntlets_lg.png",
+    "price": 140,
+    "category": "Атрибуты",
+    "description": "Простой предмет для героев силы.",
+    "attributes": ["+3 к силе"]
+  },
+  {
+    "id": "14",
+    "name": "Венец",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/circlet_lg.png",
+    "price": 155,
+    "category": "Атрибуты",
+    "description": "Универсальный предмет для начала игры.",
+    "attributes": ["+2 ко всем атрибутам"]
+  },
+  {
+    "id": "15",
+    "name": "Пояс великана",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/belt_of_strength_lg.png",
+    "price": 450,
+    "category": "Атрибуты",
+    "description": "Улучшенный предмет для героев силы.",
+    "attributes": ["+6 к силе"]
+  },
+  {
+    "id": "16",
+    "name": "Лента ловкости",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/band_of_elvenskin_lg.png",
+    "price": 450,
+    "category": "Атрибуты",
+    "description": "Улучшенный предмет для героев ловкости.",
+    "attributes": ["+6 к ловкости"]
+  },
+  {
+    "id": "17",
+    "name": "Роба мудреца",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/robe_lg.png",
+    "price": 450,
+    "category": "Атрибуты",
+    "description": "Улучшенный предмет для героев интеллекта.",
+    "attributes": ["+6 к интеллекту"]
+  },
+  {
+    "id": "18",
+    "name": "Жезл силы",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ogre_axe_lg.png",
+    "price": 1000,
+    "category": "Атрибуты",
+    "description": "Продвинутый предмет для героев силы.",
+    "attributes": ["+10 к силе"]
+  },
+  {
+    "id": "19",
+    "name": "Клинок ловкости",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/blade_of_alacrity_lg.png",
+    "price": 1000,
+    "category": "Атрибуты",
+    "description": "Продвинутый предмет для героев ловкости.",
+    "attributes": ["+10 к ловкости"]
+  },
+  {
+    "id": "20",
+    "name": "Посох волшебства",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/staff_of_wizardry_lg.png",
+    "price": 1000,
+    "category": "Атрибуты",
+    "description": "Продвинутый предмет для героев интеллекта.",
+    "attributes": ["+10 к интеллекту"]
+  },
+  {
+    "id": "21",
+    "name": "Ботинки скорости",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/boots_lg.png",
+    "price": 500,
+    "category": "Атрибуты",
+    "description": "Увеличивает скорость передвижения.",
+    "attributes": ["+45 к скорости передвижения"]
+  },
+  {
+    "id": "22",
+    "name": "Перчатки силы",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/gloves_lg.png",
+    "price": 450,
+    "category": "Оружие",
+    "description": "Увеличивает скорость атаки.",
+    "attributes": ["+20 к скорости атаки"]
+  },
+  {
+    "id": "23",
+    "name": "Палка-копалка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/quelling_blade_lg.png",
+    "price": 130,
+    "category": "Оружие",
+    "description": "Бонус урона по крипам и возможность рубить деревья.",
+    "attributes": ["+15 урона по крипам для ближних героев", "+6 урона по крипам для дальних героев"]
+  },
+  {
+    "id": "24",
+    "name": "Мьёльнир",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/mjollnir_lg.png",
+    "price": 5700,
+    "category": "Оружие",
+    "description": "Наносит цепную молнию при атаках и при получении урона.",
+    "attributes": ["+80 к скорости атаки", "+24 к урону"]
+  },
+  {
+    "id": "25",
+    "name": "Боевое безумие",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/battle_fury_lg.png",
+    "price": 4100,
+    "category": "Оружие",
+    "description": "Наносит урон в области и ускоряет фарм.",
+    "attributes": ["+60 урона", "+7.5 к восстановлению здоровья", "+2.75 к восстановлению маны", "45% урона в области для ближних героев"]
+  },
+  {
+    "id": "26",
+    "name": "Эфирный клинок",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ethereal_blade_lg.png",
+    "price": 4500,
+    "category": "Оружие",
+    "description": "Превращает цель в эфирную форму, усиливая магический урон и делая её невосприимчивой к физическому урону.",
+    "attributes": ["+40 к основному атрибуту", "+10 ко всем другим атрибутам"]
+  },
+  {
+    "id": "27",
+    "name": "Радиант",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/radiance_lg.png",
+    "price": 5000,
+    "category": "Оружие",
+    "description": "Наносит урон врагам вокруг владельца и шанс промаха.",
+    "attributes": ["+60 урона", "Аура Обжигания: 60 урона в секунду и 17% шанс промаха для врагов в радиусе 700"]
+  },
+  {
+    "id": "28",
+    "name": "Рукоять Дэдалуса",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/daedalus_lg.png",
+    "price": 5300,
+    "category": "Оружие",
+    "description": "Шанс нанести критический урон на атаку.",
+    "attributes": ["+88 урона", "30% шанс нанести 225% критического урона"]
+  },
+  {
+    "id": "29",
+    "name": "Божественный рапир",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/rapier_lg.png",
+    "price": 5600,
+    "category": "Оружие",
+    "description": "Мощное оружие, выпадающее при смерти.",
+    "attributes": ["+330 урона"]
+  },
+  {
+    "id": "30",
+    "name": "Кольчужка",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/chainmail_lg.png",
+    "price": 550,
+    "category": "Броня",
+    "description": "Простая броня для начала игры.",
+    "attributes": ["+4 брони"]
+  },
+  {
+    "id": "31",
+    "name": "Пластинчатый доспех",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/platemail_lg.png",
+    "price": 1400,
+    "category": "Броня",
+    "description": "Улучшенная броня.",
+    "attributes": ["+10 брони"]
+  },
+  {
+    "id": "32",
+    "name": "Наплечники",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/assault_lg.png",
+    "price": 5125,
+    "category": "Броня",
+    "description": "Усиливает атаку и защиту союзников.",
+    "attributes": ["+30 скорости атаки", "+10 брони", "Аура наплечников: +30 скорости атаки, +5 брони союзникам, -5 брони врагам"]
+  },
+  {
+    "id": "33",
+    "name": "Сердце Тарраска",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/heart_lg.png",
+    "price": 5100,
+    "category": "Броня",
+    "description": "Даёт огромное здоровье и регенерацию.",
+    "attributes": ["+45 силы", "+400 здоровья", "+1.6% к восстановлению максимального здоровья в секунду"]
+  },
+  {
+    "id": "34",
+    "name": "Кираса",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/crimson_guard_lg.png",
+    "price": 3625,
+    "category": "Броня",
+    "description": "Активно блокирует урон и даёт броню.",
+    "attributes": ["+250 здоровья", "+6 восстановления здоровья", "+8 брони", "Блокирует 70 урона"]
+  },
+  {
+    "id": "35",
+    "name": "Лезвие отчаяния",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/blade_mail_lg.png",
+    "price": 2100,
+    "category": "Броня",
+    "description": "Возвращает урон атакующему.",
+    "attributes": ["+20 урона", "+6 брони", "+8% к усилению заклинаний"]
+  },
+  {
+    "id": "36",
+    "name": "Перчатка тени",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/shadow_amulet_lg.png",
+    "price": 1400,
+    "category": "Артефакты",
+    "description": "Делает неподвижного персонажа невидимым.",
+    "attributes": ["+20 к скорости атаки"]
+  },
+  {
+    "id": "37",
+    "name": "Теневой амулет",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/glimmer_cape_lg.png",
+    "price": 2150,
+    "category": "Артефакты",
+    "description": "Делает цель частично невидимой и даёт сопротивление магии.",
+    "attributes": ["+20% к сопротивлению магии"]
+  },
+  {
+    "id": "38",
+    "name": "Силовые ботинки",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/power_treads_lg.png",
+    "price": 1400,
+    "category": "Артефакты",
+    "description": "Даёт возможность переключать атрибуты.",
+    "attributes": ["+45 к скорости передвижения", "+10 к выбранному атрибуту", "+25 к скорости атаки"]
+  },
+  {
+    "id": "39",
+    "name": "Фаза",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/phase_boots_lg.png",
+    "price": 1500,
+    "category": "Артефакты",
+    "description": "Активно увеличивает скорость и позволяет проходить сквозь юнитов.",
+    "attributes": ["+45 к скорости передвижения", "+18 урона (ближние) / +12 урона (дальние)"]
+  },
+  {
+    "id": "40",
+    "name": "Манта",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/manta_lg.png",
+    "price": 4600,
+    "category": "Артефакты",
+    "description": "Создаёт иллюзии героя и очищает от большинства эффектов.",
+    "attributes": ["+10 ко всем атрибутам", "+26 к урону", "+12% к скорости передвижения"]
+  },
+  {
+    "id": "41",
+    "name": "Линкен",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/sphere_lg.png",
+    "price": 4600,
+    "category": "Артефакты",
+    "description": "Блокирует направленные заклинания раз в 13 секунд.",
+    "attributes": ["+16 ко всем атрибутам", "+7 к восстановлению здоровья", "+4 к восстановлению маны"]
+  },
+  {
+    "id": "42",
+    "name": "БКБ",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/black_king_bar_lg.png",
+    "price": 4050,
+    "category": "Артефакты",
+    "description": "Даёт иммунитет к магии на короткое время.",
+    "attributes": ["+10 силы", "+24 урона"]
+  },
+  {
+    "id": "43",
+    "name": "Орхидея",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/orchid_lg.png",
+    "price": 3475,
+    "category": "Артефакты",
+    "description": "Молчание цели и усиление урона.",
+    "attributes": ["+20 интеллекта", "+30 к скорости атаки", "+3 к восстановлению маны", "+60 урона"]
+  },
+  {
+    "id": "44",
+    "name": "Аганим",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ultimate_scepter_lg.png",
+    "price": 4200,
+    "category": "Артефакты",
+    "description": "Улучшает ультимативную способность героя.",
+    "attributes": ["+10 ко всем атрибутам", "+175 здоровья", "+175 маны"]
+  },
+  {
+    "id": "45",
+    "name": "Рефрешер",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/refresher_lg.png",
+    "price": 5000,
+    "category": "Артефакты",
+    "description": "Обновляет все способности и предметы.",
+    "attributes": ["+13 к восстановлению здоровья", "+400% к восстановлению маны"]
+  },
+  {
+    "id": "46",
+    "name": "Вихрь",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/cyclone_lg.png",
+    "price": 2725,
+    "category": "Артефакты",
+    "description": "Поднимает цель в воздух на 2.5 секунды.",
+    "attributes": ["+10 интеллекта", "+2.5 к восстановлению маны", "+35 к скорости передвижения"]
+  },
+  {
+    "id": "47",
+    "name": "Сапог Странника",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/travel_boots_lg.png",
+    "price": 2500,
+    "category": "Артефакты",
+    "description": "Телепортация к союзным строениям или юнитам.",
+    "attributes": ["+90 к скорости передвижения", "Телепортация с кулдауном в 45 секунд"]
+  },
+  {
+    "id": "48",
+    "name": "Ботинки аркан",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/arcane_boots_lg.png",
+    "price": 1300,
+    "category": "Артефакты",
+    "description": "Восстанавливает ману в области.",
+    "attributes": ["+45 к скорости передвижения", "+250 к мане"]
+  },
+  {
+    "id": "49",
+    "name": "Октавина",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/octarine_core_lg.png",
+    "price": 5275,
+    "category": "Артефакты",
+    "description": "Сокращает время перезарядки способностей и предметов.",
+    "attributes": ["+25 интеллекта", "+425 здоровья", "+425 маны", "25% снижение перезарядки способностей и предметов"]
+  },
+  {
+    "id": "50",
+    "name": "Филактерия",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/bloodstone_lg.png",
+    "price": 4400,
+    "category": "Артефакты",
+    "description": "Увеличивает здоровье и ману, а также их восстановление.",
+    "attributes": ["+550 здоровья", "+550 маны", "+14 к восстановлению здоровья", "+200% к восстановлению маны"]
+  },
+  {
+    "id": "51",
+    "name": "Философский камень",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/philosopher_stone_lg.png",
+    "price": 0,
+    "category": "Нейтральные",
+    "description": "Даёт пассивное золото, но снижает урон.",
+    "attributes": ["+70 к мане", "+1.5 золота в минуту", "-30% к базовому урону"]
+  },
+  {
+    "id": "52",
+    "name": "Кольцо здоровья",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ring_of_health_lg.png",
+    "price": 825,
+    "category": "Атрибуты",
+    "description": "Повышает регенерацию здоровья.",
+    "attributes": ["+6.5 к восстановлению здоровья"]
+  },
+  {
+    "id": "53",
+    "name": "Кольцо базилиуса",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/ring_of_basilius_lg.png",
+    "price": 425,
+    "category": "Артефакты",
+    "description": "Аура восстановления маны.",
+    "attributes": ["+0.5 к восстановлению маны в ауре", "+7 урона"]
+  },
+  {
+    "id": "54",
+    "name": "Меч возмездия",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/basher_lg.png",
+    "price": 2875,
+    "category": "Оружие",
+    "description": "Шанс оглушить врага при атаке.",
+    "attributes": ["+25 урона", "+10 силы", "25% шанс оглушить цель на 1.4 секунды"]
+  },
+  {
+    "id": "55",
+    "name": "Некрономикон",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/necronomicon_lg.png",
+    "price": 2400,
+    "category": "Артефакты",
+    "description": "Призывает мощных воинов, обнаруживающих невидимость и сжигающих ману.",
+    "attributes": ["+2 ко всем атрибутам", "+30 урона"]
+  },
+  {
+    "id": "56",
+    "name": "Тайлер",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/yasha_lg.png",
+    "price": 2050,
+    "category": "Оружие",
+    "description": "Увеличивает скорость атаки и передвижения.",
+    "attributes": ["+16 ловкости", "+12 урона", "+10% к скорости передвижения", "+15 к скорости атаки"]
+  },
+  {
+    "id": "57",
+    "name": "Соучастие",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/kaya_lg.png",
+    "price": 2050,
+    "category": "Оружие",
+    "description": "Усиливает магический урон и уменьшает стоимость маны заклинаний.",
+    "attributes": ["+16 интеллекта", "+12 урона", "+8% к усилению заклинаний", "+12% к усилению усилению регенерации маны"]
+  },
+  {
+    "id": "58",
+    "name": "Хранитель",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/guardian_greaves_lg.png",
+    "price": 5275,
+    "category": "Артефакты",
+    "description": "Восстанавливает здоровье и ману в области.",
+    "attributes": ["+55 к скорости передвижения", "+250 маны", "+5 брони", "Аура хранителя: +2 к восстановлению здоровья, +2 брони"]
+  },
+  {
+    "id": "59",
+    "name": "Талисман Эвасиона",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/talisman_of_evasion_lg.png",
+    "price": 1300,
+    "category": "Атрибуты",
+    "description": "Даёт шанс уклониться от атак.",
+    "attributes": ["15% шанс уклонения"]
+  },
+  {
+    "id": "60",
+    "name": "Символ Пиноса",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/items/nullifier_lg.png",
+    "price": 4725,
+    "category": "Оружие",
+    "description": "Блокирует использование предметов и очищает положительные эффекты.",
+    "attributes": ["+80 урона", "+10 брони", "+6 к восстановлению здоровья"]
+  }
+] 
