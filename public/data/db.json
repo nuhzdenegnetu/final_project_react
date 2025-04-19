@@ -1,0 +1,101 @@
+[
+    {
+      "id": 1,
+      "name": "Шаурма у Ашота",
+      "address": "ул. Дерибасовская, 10",
+      "averageRating": 5,
+      "review": "Очень вкусная шаурма, но иногда долго ждать.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 2,
+      "name": "Шаурма на углу",
+      "address": "ул. Пушкинская, 25",
+      "averageRating": 4,
+      "review": "Неплохая шаурма, но порции могли бы быть больше.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 3,
+      "name": "Шаурма от Махмуда",
+      "address": "ул. Екатерининская, 15",
+      "averageRating": 5,
+      "review": "Лучшая шаурма в городе! Всегда свежие ингредиенты.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 4,
+      "name": "Шаурма 24/7",
+      "address": "ул. Греческая, 5",
+      "averageRating": 4,
+      "review": "Удобно, что работает круглосуточно, но вкус средний.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 5,
+      "name": "Шаурма у моря",
+      "address": "ул. Приморская, 1",
+      "averageRating": 5,
+      "review": "Прекрасное место с видом на море, шаурма вкусная.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 6,
+      "name": "Шаурма у Армена",
+      "address": "ул. Ланжероновская, 12",
+      "averageRating": 5,
+      "review": "Очень вкусно, но цены немного завышены.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 7,
+      "name": "Шаурма на рынке",
+      "address": "ул. Новощепной ряд, 3",
+      "averageRating": 4,
+      "review": "Шаурма вкусная, но место не самое чистое.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Посёлок Котовского"
+    },
+    {
+      "id": 8,
+      "name": "Шаурма от Али",
+      "address": "ул. Ришельевская, 20",
+      "averageRating": 5,
+      "review": "Просто потрясающе! Всегда возвращаюсь сюда.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 9,
+      "name": "Шаурма Экспресс",
+      "address": "ул. Садовая, 7",
+      "averageRating": 4,
+      "review": "Быстрое обслуживание, но вкус оставляет желать лучшего.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 10,
+      "name": "Шаурма у вокзала",
+      "address": "ул. Привокзальная, 2",
+      "averageRating": 4,
+      "review": "Удобное расположение, вкусно и недорого.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Центр"
+    },
+    {
+      "id": 11,
+      "name": "Шавуран",
+      "address": "ул. Королева, 29",
+      "averageRating": 5,
+      "review": "Хорошая шаурма, но иногда не хватает соуса.",
+      "photo": "https://i.pinimg.com/736x/a5/d1/c1/a5d1c1d6ed667964b6dd8d78ef6ee737.jpg",
+      "district": "Таирова"
+    }
+  ]
