@@ -9,7 +9,7 @@ export default function ForumPage() {
   
   const [error, setError] = useState<string | null>(fetchError);
 
-  const handleDeletePost = async (postId: string) => {
+  const handleDeletePost = async () => {
     try {
       // В будущем здесь будет вызов API для удаления поста
       // Пока просто эмулируем удаление
@@ -68,7 +68,7 @@ export default function ForumPage() {
                 <div className="flex justify-between items-start">
                   <h2 className="text-2xl font-bold text-gray-800 mb-2">{post.title}</h2>
                   <button 
-                    onClick={() => handleDeletePost(post.id)}
+                    onClick={() => handleDeletePost()}
                     className="text-red-500 hover:text-red-700"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
