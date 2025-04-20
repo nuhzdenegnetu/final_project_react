@@ -1,19 +1,25 @@
 import { useState } from "react";
 import { ModalProps } from "../../types/modal.interface.ts";
 import { ItemForm } from "../../types/form.interface.ts";
+import axios from "axios";
+import { API_URL_ITEMS } from "../../const/API_MOCKS";
 
 export default function AddItemForm({ showModal, setShowModal }: ModalProps) {
     const [form, setForm] = useState<ItemForm>({
         name: "",
         icon: "",
-        price: "",
+        price: 0,
         category: "Расходуемые",
         description: "",
         attributes: [""]
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-        setForm({ ...form, [e.target.name]: e.target.value });
+        const value = e.target.name === "price" 
+            ? Number(e.target.value) 
+            : e.target.value;
+        
+        setForm({ ...form, [e.target.name]: value });
     };
 
     const handleAttributeChange = (index: number, value: string) => {
@@ -35,14 +41,14 @@ export default function AddItemForm({ showModal, setShowModal }: ModalProps) {
         e.preventDefault();
 
         // Проверка обязательных полей
-        if (!form.name.trim() || !form.price.trim() || !form.description.trim()) {
+        if (!form.name.trim() || !form.description.trim()) {
             alert("Пожалуйста, заполните все обязательные поля");
             return;
         }
 
-        // Проверка, что цена - число
-        if (isNaN(Number(form.price))) {
-            alert("Цена должна быть числом");
+        // Проверка, что цена - положительное число
+        if (form.price < 0) {
+            alert("Цена должна быть положительным числом");
             return;
         }
 
@@ -53,20 +59,20 @@ export default function AddItemForm({ showModal, setShowModal }: ModalProps) {
             // Создаем объект предмета
             const itemData = {
                 ...form,
-                price: Number(form.price),
                 attributes: filteredAttributes.length > 0 ? filteredAttributes : undefined,
-                icon: form.icon?.trim() || "https://via.placeholder.com/150?text=Нет+изображения"
+                icon: form.icon?.trim() ? form.icon.trim() : "https://via.placeholder.com/150?text=Нет+изображения"
             };
 
-            // В реальном приложении тут бы был запрос на API
-            console.log("Новый предмет отправлен:", itemData);
+            // Отправляем данные на сервер
+            const response = await axios.post(API_URL_ITEMS, itemData);
+            console.log("Новый предмет отправлен:", response.data);
             alert("Предмет успешно добавлен!");
             
             // Сбрасываем форму
             setForm({
                 name: "",
                 icon: "",
-                price: "",
+                price: 0,
                 category: "Расходуемые",
                 description: "",
                 attributes: [""]

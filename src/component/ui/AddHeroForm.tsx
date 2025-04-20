@@ -1,6 +1,8 @@
 import {useState} from "react";
 import {ModalProps} from "../../types/modal.interface.ts";
 import {HeroForm} from "../../types/form.interface.ts";
+import axios from "axios";
+import {API_URL_HEROES} from "../../const/API_MOCKS";
 
 export default function AddHeroForm({showModal, setShowModal}: ModalProps) {
     const [form, setForm] = useState<HeroForm>({
@@ -54,11 +56,12 @@ export default function AddHeroForm({showModal, setShowModal}: ModalProps) {
             const heroData = {
                 ...form,
                 abilities: filteredAbilities,
-                portrait: form.portrait.trim() || "https://via.placeholder.com/150?text=Нет+изображения" // Используем placeholder по умолчанию
+                portrait: form.portrait?.trim() || "https://via.placeholder.com/150?text=Нет+изображения" // Используем placeholder по умолчанию
             };
             
-            // В реальном приложении тут бы был запрос на API
-            console.log("Новый герой отправлен:", heroData);
+            // Отправляем данные на сервер
+            const response = await axios.post(API_URL_HEROES, heroData);
+            console.log("Новый герой отправлен:", response.data);
             alert("Герой успешно добавлен!");
             setForm({
                 name: "",

@@ -12,7 +12,7 @@ export interface HeroForm {
 export interface ItemForm {
     name: string;
     icon?: string;
-    price: string;
+    price: number;
     category: string;
     description: string;
     attributes: string[];
